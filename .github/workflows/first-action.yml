@@ -1,5 +1,5 @@
 name: parallel with matrix
-#event to be triggered
+#on which event to be triggered
 on: [push]
 
 jobs:
