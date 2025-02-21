@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build_number:
-    runs-on: ${{matrix.runner}}
+    runs-on: ${{matrix.os}}
 
     strategy:
       matrix:
