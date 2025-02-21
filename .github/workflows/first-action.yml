@@ -25,5 +25,4 @@ jobs:
           
     - name : Run tests
       run: |
-        cd src
-        python -m pytest multi.py 
+        python -m pytest multi1.py 
