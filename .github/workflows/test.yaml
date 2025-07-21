@@ -1,7 +1,7 @@
 name: Say Hello
 
 on:
-  workflow-dispatch
+  push
   
 jobs:
   test:
