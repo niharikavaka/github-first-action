@@ -14,6 +14,11 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    steps: 
+      - name: Niharika 
+        run: echo "Hi Niha"
+  test1:
+    runs-on: ubuntu-latest   
 
     steps:
       - name: Checkout code
