@@ -23,6 +23,7 @@ jobs:
       - name: Niharika 
         run: echo "Hi Niha"
   test1:
+    if: ${{ inputs.run-test1 }}
     runs-on: ubuntu-latest   
 
     steps:
